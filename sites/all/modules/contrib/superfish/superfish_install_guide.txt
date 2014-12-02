@@ -1,0 +1,9 @@
+Superfish Install Guide
+
+This guide operates under the assumption that you're using an Adaptive Theme.
+
+Superfish should already be installed as part of your install profile, if not install Superfish.
+Access structure->blocks, place the superfish 1 block into the Main Menu Bar region.
+Configure the block, change styling to "None".
+Save everything.
+Profit!

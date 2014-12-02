@@ -1,0 +1,52 @@
+# Ignore configuration files that may contain sensitive information.
+sites/*/settings*.php
+
+# Ignore paths that contain user-generated content.
+sites/*/files
+sites/*/private
+
+vendor
+.env
+bin/*
+
+# Ignore Vagrant box
+.vagrant/
+
+# Ruby
+.bundle
+.ruby-version
+
+# sass-cache
+.sass-cache/
+
+# Exclude IDE management files.
+# PHP Storm
+.idea
+
+# Eclipse
+.project
+.settings
+.buildpath
+
+# Netbeans
+netbeans
+
+# Exclude hidden OS files.
+.DS_Store
+._*
+Thumbs.db
+
+# Exclude other VCS tracking files.
+#CVS
+.#*
+.svn
+.bzr
+
+# Exclude files used by FTP, Dreamweaver, Frontpage, vi, etc.
+WS_FTP.LOG
+_notes
+_vti_*
+*.LCK
+*.TMP
+*~
+
